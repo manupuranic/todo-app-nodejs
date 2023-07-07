@@ -1,0 +1,73 @@
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aliceblue;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.1rem;
+}
+
+.header {
+  color: #4f4ffc;
+  font-weight: 400;
+  text-align: center;
+  margin: 2% 0;
+}
+
+.container {
+  background-color: white;
+  padding: 2%;
+  margin: 1.5% auto;
+  width: 60%;
+}
+
+.container.list {
+  width: 100%;
+}
+
+input {
+  margin-bottom: 5px;
+}
+
+.btn {
+  margin: 1% 0;
+  width: 2rem%;
+  padding: 1.5% 2%;
+}
+
+@media (max-width: 600px) {
+  .btn {
+    width: 100%;
+  }
+
+  .container {
+    width: 90%;
+  }
+}
+
+.li-btn {
+  float: right;
+  width: 2rem;
+  margin-left: 5px;
+  padding: 3px 2px;
+}
+
+.icon {
+  margin-top: 5px;
+  font-size: 1.3rem;
+  font-weight: 900;
+}
+
+.span-desc {
+  margin-left: 10px;
+  font-style: italic;
+}
+
+.span-todo {
+  color: #6233ae;
+  font-size: 1.2rem;
+  display: block;
+}
